@@ -1,19 +1,19 @@
-package com.example.user.myapplication;
+package com.example.user.myapplication.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.Toast;
 
+import com.example.user.myapplication.Adapter.Adapter;
 import com.example.user.myapplication.Models.DataResponse;
 import com.example.user.myapplication.Network.RetrofitClient;
 import com.example.user.myapplication.Network.Service;
+import com.example.user.myapplication.R;
 
 import java.io.IOException;
 import java.util.ArrayList;

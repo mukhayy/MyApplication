@@ -1,4 +1,4 @@
-package com.example.user.myapplication;
+package com.example.user.myapplication.Activities;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +8,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
+import com.example.user.myapplication.R;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
